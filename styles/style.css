@@ -1,0 +1,78 @@
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    
+}
+
+
+
+img {
+    width: 375px;
+    vertical-align: middle;
+    border-radius: 30px;
+    box-shadow: 1px 1px black;
+}
+
+
+p {
+    display: inline;
+    vertical-align: middle;
+    padding: 30px;
+    margin: 20px;
+}
+
+section {
+    font-family: 'Libre Baskerville';
+    font-size: 27px; 
+    font-style: italic;
+    color: #2F2504;
+    text-shadow: 1px 1px black;
+}
+
+.list-grid {
+    display: grid;
+    grid-template-columns: 155px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+li {
+    display: inline;
+    grid-row: 2;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    grid-column: 1;
+    
+}
+
+.banner {
+    grid-row: 1;
+    background-color: #837141;
+    grid-column: 1;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 57px;
+    color: #FFFDD0;
+    vertical-align: middle;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    text-shadow: 1px 1px black;
+    box-shadow: 1px 1px black;
+}
+
+footer {
+    grid-row: 3;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #837141;
+    color: #FFFDD0;
+    border-radius: 25px;
+    text-shadow: 1px 1px black;
+    box-shadow: 1px 1px black;
+}
