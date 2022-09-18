@@ -16,6 +16,15 @@ img {
     box-shadow: 1px 1px black;
 }
 
+h1 {
+    display: inline;   
+}
+
+h2 {
+    display: inline; 
+    padding: 30px;
+    margin: 20px;  
+} 
 
 p {
     display: inline;
